@@ -1,0 +1,14 @@
+// 配置
+@import "./components/reset";
+@import "./components/config";
+@import "./components/layout";
+@import "./components/button";
+@import "./components/input";
+
+// 全局样式
+body {
+  font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei,Roboto,Helvetica Neue,Helvetica,SimSun,sans-serif;
+  background: #F5F6F6 !important;
+  font-size: 14px;
+  color: #121317;
+}

@@ -1,0 +1,53 @@
+
+.bt-wrapper{
+  width: 100%;
+  &-body{
+    width: 1230px;
+    padding: 0 15px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+
+
+.bt-row{
+  display: flex;
+  // 纵向排列
+  &__column{
+    flex-direction: column;
+  }
+  // 主轴对齐
+  &__start{
+    justify-content: flex-start;
+  }
+  &__center{
+    justify-content: center;
+  }
+  &__end{
+    justify-content: flex-end;
+  }
+  &__between{
+    justify-content: space-between;
+  }
+  &__around{
+    justify-content: space-around;
+  }
+  // 侧轴对齐
+  &__top{
+    align-items: flex-start;
+  }
+  &__middle{
+    align-items: center;
+  }
+  &__bottom{
+    align-items: flex-end;
+  }
+}
+
+.bt-col{
+  @for $i from 1 through 24 {
+    &-#{$i} {
+      flex: $i;
+    }
+  }
+}

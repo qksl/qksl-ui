@@ -1,0 +1,179 @@
+.sz-color-blue {
+  color: $sz-color-blue;
+}
+
+.sz-color-white {
+  color: $sz-color-white;
+}
+
+.sz-bg-white {
+  background-color: $sz-color-white !important;
+}
+
+.sz-bg-light-green {
+  background-color: $sz-color-light-green !important;
+}
+
+.sz-bg-blue {
+  background-color: $sz-color-blue;
+}
+
+.sz-color-red {
+  color: $sz-color-red;
+}
+
+.sz-color-white {
+  color: $sz-color-white;
+}
+
+.text-level1 {
+  color: #4e4e4e !important;
+}
+
+.text-level2 {
+  color: $sz-color-font-level2 !important;
+}
+
+.text-desc {
+  color: $sz-color-font-desc !important;
+}
+
+.text-link {
+  color: $sz-color-font-link !important;
+}
+
+.text-light {
+  color: #C7E1FD !important;
+}
+
+.text-vip {
+  color: $sz-color-font-member !important;
+}
+
+.sz-border-color-gray {
+  border-color: #eee !important;
+}
+
+.sz-border-color-lightgray {
+  border-color: #e7e7e7 !important;
+}
+
+.hidden {
+  display: none !important;
+}
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.del {
+  text-decoration: line-through;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+// 字体样式
+.strong, .bold {
+  font-weight: bold;
+}
+
+.ellipsis {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.clearfix {
+  &::after {
+    content: ' ';
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+
+//文字横向方式
+.tr {
+  text-align: right !important;
+}
+
+.tc {
+  text-align: center !important;
+}
+
+//字体颜色
+.text-red {
+  color: $sz-color-red !important;
+}
+
+.text-blue {
+  color: $sz-color-blue !important;
+}
+
+.text-gray {
+  color: $sz-color-gray !important;
+}
+
+@for $i from 0 through 100 {
+  .mt#{$i} {
+    margin-top: #{$i}px !important;
+  }
+
+  .mb#{$i} {
+    margin-bottom: #{$i}px !important;
+  }
+
+  .ml#{$i} {
+    margin-left: #{$i}px !important;
+  }
+
+  .mr#{$i} {
+    margin-right: #{$i}px !important;
+  }
+
+  .pt#{$i} {
+    padding-top: #{$i}px !important;
+  }
+
+  .pb#{$i} {
+    padding-bottom: #{$i}px !important;
+  }
+
+  .pl#{$i} {
+    padding-left: #{$i}px !important;
+  }
+
+  .pr#{$i} {
+    padding-right: #{$i}px !important;
+  }
+
+  .pd#{$i} {
+    padding: #{$i}px !important;
+  }
+
+  .ft#{$i} {
+    font-size: #{$i}px !important;
+  }
+}
